@@ -1,0 +1,50 @@
+[
+  {
+    "Nome": "Tecnologia em Análise e Desenvolvimento de Sistemas",
+	"Duração": "5 Semestres",
+	"Ramo": "Tecnologia",
+	"Descrição": "TADS"
+  },
+  {
+    "Nome": "Engenharia da Computação",
+	"Duração": "10 Semestres",
+	"Ramo": "Tecnologia",
+	"Descrição": "Curso de Engenharia"
+  },
+  {
+    "Nome": "Desenvolvimento de Jogos Digitais",
+	"Duração": "8 Semestres",
+	"Ramo": "Tecnologia",
+	"Descrição": "Curso de Programação de Jogos Digitais"
+  },
+  {
+    "Nome": "Ciências da Computação",
+	"Duração": "8 Semestres",
+	"Ramo": "Tecnologia",
+	"Descrição": "Curso de Ciências da Computação"
+  },
+  {
+    "Nome": "Pós-Graduação em Banco de Dados",
+	"Duração": "3 Semestres",
+	"Ramo": "Tecnologia",
+	"Descrição": "Curso de Pós-Graduação e "
+  },
+  {
+    "Nome": "MBA em Gestão da Tecnologia",
+	"Duração": "3 Semestres",
+	"Ramo": "Tecnologia",
+	"Descrição": "Curso de Pós-Graduação e Especialização"
+  },
+  {
+    "Nome": "Pós Graduação em Inteligência Artificial",
+	"Duração": "3 Semestres",
+	"Ramo": "Tecnologia",
+	"Descrição": "Curso de Pós-Graduação e Especialização"
+  },
+  {
+    "Nome": "Especialização de Gestão em DevOps",
+	"Duração": "3 Semestres",
+	"Ramo": "Tecnologia",
+	"Descrição": "Curso de Pós-Graduação e Especialização"
+  }
+]
