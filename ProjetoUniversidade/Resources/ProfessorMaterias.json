@@ -1,0 +1,66 @@
+[
+  {
+    "IdProfessor": "1",
+    "IdMateria": "3"
+  },
+  {
+    "IdProfessor": "1",
+    "IdMateria": "8"
+  },
+  {
+    "IdProfessor": "1",
+    "IdMateria": "10"
+  },
+  {
+    "IdProfessor": "1",
+    "IdMateria": "12"
+  },
+  {
+    "IdProfessor": "2",
+    "IdMateria": "1"
+  },
+  {
+    "IdProfessor": "3",
+    "IdMateria": "2"
+  },
+  {
+    "IdProfessor": "4",
+    "IdMateria": "4"
+  },
+  {
+    "IdProfessor": "5",
+    "IdMateria": "5"
+  },
+  {
+    "IdProfessor": "6",
+    "IdMateria": "6"
+  },
+  {
+    "IdProfessor": "7",
+    "IdMateria": "7"
+  },
+  {
+    "IdProfessor": "8",
+    "IdMateria": "8"
+  },
+  {
+    "IdProfessor": "9",
+    "IdMateria": "9"
+  },
+  {
+    "IdProfessor": "10",
+    "IdMateria": "10"
+  },
+  {
+    "IdProfessor": "10",
+    "IdMateria": "9"
+  },
+  {
+    "IdProfessor": "9",
+    "IdMateria": "10"
+  },
+  {
+    "IdProfessor": "7",
+    "IdMateria": "6"
+  }
+]

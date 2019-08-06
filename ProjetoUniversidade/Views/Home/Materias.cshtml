@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Materias";
+}
+
+<br />
+<div>
+
+    <form action="/Home/AddMateria" method="post">
+
+        <div class="form-group">
+            <label for="Nome">Nome*</label>
+            <input type="text" class="form-control" id="Nome" name="materia.Nome" placeholder="Insira o nome da Matéria">
+        </div>
+
+        <div class="form-group">
+            <label for="Descricao">Descrição*</label>
+            <input type="text" class="form-control" id="Descricao" name="materia.Descricao" placeholder="Insira uma Descrição sobre a matéria">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Salvar</button>
+
+    </form>
+
+    <br />
+    <br />
+
+    <div>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var materia in ViewBag.Materias)
+                {
+                    <tr>
+                        <th scope="col" style="font-weight:100">@materia.Id</th>
+                        <th scope="col" style="font-weight:100">@materia.Nome</th>
+                        <th scope="col" style="font-weight:100">@materia.Descricao</th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+</div>

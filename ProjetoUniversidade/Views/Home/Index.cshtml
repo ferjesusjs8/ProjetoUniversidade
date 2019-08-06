@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Projeto Universidade";
+}
+
+<br />
+<br />
+
+<div class="list-group col-md-6">
+    <button type="button" class="list-group-item list-group-item-action active">Professores</button>
+
+    @foreach (var professor in ViewBag.Professores)
+    {
+        <button type="button" id="@professor.Id" class="list-group-item list-group-item-action" onclick="esconderProfessor(this);">@professor.Nome @professor.Sobrenome</button>
+    }
+
+</div>
+
+<div class="list-group col-md-6">
+    <button type="button" class="list-group-item list-group-item-action active">Matérias</button>
+    @foreach (var materia in ViewBag.Materias)
+    {
+        <button type="button" id="@materia.Id" class="list-group-item list-group-item-action" onclick="esconderMateria(this);">@materia.Nome<h6>@materia.Descricao</h6></button>
+    }
+</div>
+
+<script type="text/javascript">
+    function esconderMateria(elemento) {
+    debugger;
+        alert("Materia da linha " + elemento.id);
+    }
+    function esconderProfessor(elemento) {
+        alert("Professor da linha " + elemento.id);
+    }
+</script>

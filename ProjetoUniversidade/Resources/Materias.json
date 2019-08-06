@@ -1,0 +1,66 @@
+[
+  {
+    "Nome": "Ferramentas Para Sistemas WEB",
+	"Descricao": "Matéria para desenvolvimento WEB"
+  },
+  {
+    "Nome": "Probabilidade e Estatística",
+	"Descricao": "Matéria sobre cálculos envolvendo informática"
+  },
+  {
+    "Nome": "Redes de Computadores",
+	"Descricao": "Matéria sobre infraestrutura e redes"
+  },
+  {
+    "Nome": "Desenvolvimento de Software Seguro",
+	"Descricao": "Matéria sobre segurança em sistemas"
+  },
+  {
+    "Nome": "Programação em Dispositivos Móveis",
+	"Descricao": "Matéria sobre desenvolvimento de aplicativos"
+  },
+  {
+    "Nome": "Programação em Banco de Dados",
+	"Descricao": "Matéria sobre gerenciamento de banco de dados"
+  },
+  {
+    "Nome": "Programação Orientada a Objetos",
+	"Descricao": "Matéria sobre o paradigma da programação orientada a objetos"
+  },
+  {
+    "Nome": "Matemática para Informatica",
+	"Descricao": "Matéria sobre cálculos voltado para a informática"
+  },
+  {
+    "Nome": "Construção de Algoritimos",
+	"Descricao": "Matéria sobre lógica de programação"
+  },
+  {
+    "Nome": "Programação Estruturada",
+	"Descricao": "Matéria sobre paradigma da programação estruturada"
+  },
+  {
+    "Nome": "Direito e Legislação",
+	"Descricao": "Matéria sobre direito e legislação ligadas a informática"
+  },
+  {
+    "Nome": "Teoria Geral de Sistemas",
+	"Descricao": "Matéria sobre a teoria geral de sistemas"
+  },
+  {
+    "Nome": "Responsabilidade Social e Meio Ambiente",
+	"Descricao": "Matéria sobre responsabilidade social e meio ambiente"
+  },
+  {
+    "Nome": "Física I",
+	"Descricao": "Matéria sobre fundamentos da Física I"
+  },
+  {
+    "Nome": "Física II",
+	"Descricao": "Matéria sobre fundamentos da Física II"
+  },
+  {
+    "Nome": "Física III",
+	"Descricao": "Matéria sobre fundamentos da Física III"
+  }
+]

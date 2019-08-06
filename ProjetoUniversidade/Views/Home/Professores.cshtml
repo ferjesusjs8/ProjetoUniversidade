@@ -1,0 +1,98 @@
+﻿@{
+    ViewBag.Title = "Professores";
+}
+
+
+<br />
+<div>
+
+    <form action="/Home/AddProfessor" method="post">
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="nome">Nome*</label>
+                <input type="text" class="form-control" id="nome" name="professor.Nome" placeholder="Insira seu nome">
+            </div>
+
+            <div class="form-group">
+                <label for="sobrenome">Sobrenome*</label>
+                <input type="text" class="form-control" id="sobrenome" name="professor.Sobrenome" placeholder="Insira seu sobrenome">
+            </div>
+        </div>
+
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="email">Email*</label>
+                <input type="email" class="form-control" id="email" name="professor.Email" placeholder="example@example.com">
+            </div>
+
+            <div class="form-group col-md-6" style="padding-left:0">
+                <label for="Hobbie">Hobbie</label>
+                <input type="text" class="form-control" id="Hobbie" name="professor.Hobbie" placeholder="Ler, Jogar bola...">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="Especialidade">Especialidade</label>
+                <input type="text" class="form-control" id="Especialidade" name="professor.Especialidade" placeholder="Descreva sua especialidade.">
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="number" class="form-control" id="telefone" name="professor.Telefone" placeholder="1111111111">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group" style="padding-left:15px">
+                <label for="DtNascimento">Data de Nascimento</label>
+                <input type="date" class="form-control" id="DtNascimento" name="professor.DtNascimento" placeholder="1111111111">
+            </div>
+        </div>
+
+
+        <button type="submit" style="margin:15px" class="btn btn-primary">Salvar</button>
+
+    </form>
+
+    <br />
+    <br />
+
+    <div>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sobrenome</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Telefone</th>
+                    <th scope="col">Especialidade</th>
+                    <th scope="col">Hobbie</th>
+                    <th scope="col">Data de Nascimento</th>
+                    <th scope="col">Data de Início</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var professor in ViewBag.Professores)
+                {
+                    <tr>
+                        <th scope="col" style="font-weight:100">@professor.Id</th>
+                        <th scope="col" style="font-weight:100">@professor.Nome</th>
+                        <th scope="col" style="font-weight:100">@professor.Sobrenome</th>
+                        <th scope="col" style="font-weight:100">@professor.Email</th>
+                        <th scope="col" style="font-weight:100">@professor.Telefone</th>
+                        <th scope="col" style="font-weight:100">@professor.Especialidade</th>
+                        <th scope="col" style="font-weight:100">@professor.Hobbie</th>
+                        <th scope="col" style="font-weight:100">@professor.DtNascimento</th>
+                        <th scope="col" style="font-weight:100">@professor.DataInicio</th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
